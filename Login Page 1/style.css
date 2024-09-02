@@ -1,0 +1,130 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+#box{
+    height: 60%;
+    width: 35%;
+    background-color: pink;
+    opacity: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    z-index: 1;
+}
+#box h1{
+    margin: 5%;
+}
+.rect{
+    width: 60%;
+    height: 10%;
+    margin: 2%;
+    border-radius: 200px;
+    display: flex;
+    background-color: white;
+    
+}
+.text{
+    width: 100%;
+    height: 100%;
+}
+.text input{
+    width: 100%;
+    height: 100%;
+    border-radius: 200px;
+    font-size: larger;
+    margin-left: 5%;
+    border: none;
+}
+.icon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: white;
+    border-radius: 200px;
+    font-size: large;
+    margin-right: 5%;
+}
+.text input:focus{
+    outline: none;
+}
+#login{
+    margin-top: 5%;
+}
+#first{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 2%;
+    font-size: large;
+    
+}
+#rem{
+    display: flex;
+    align-items: center;
+}
+#forg{
+    display: flex;
+    align-items: center;
+}
+#forg a{
+    color: black;
+    text-decoration: none;
+}
+#forg a:active{
+    color: rgb(7, 7, 165);
+    text-decoration: underline;
+}
+#log{
+    margin-top: 5%;
+    font-size: larger;
+    background-color: palevioletred;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    padding: 1%;
+    
+}
+#log a{
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+}
+#log a:active{
+    color: rgb(7, 7, 165);
+    text-decoration: underline;
+}
+#reg{
+    margin-top: 3%;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    padding: 1%;
+    
+}
